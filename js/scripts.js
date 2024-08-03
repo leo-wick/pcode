@@ -18,11 +18,17 @@ function checkPass() {
     }
 }
 
+const numbers = document.querySelectorAll(".num");
+
 function correctPass() {
     document.getElementById("h1").innerText = "ACCESS GRANTED";
     document.getElementById("parag").style.display = "none";
     document.getElementById("warning").innerText = "verified_user";
     document.getElementById("warning").style.color = "green";
+    
+    for (let i = 0; i < numbers.length; i++) {
+        numbers[i].style.color = "rgb(4, 175, 4)";
+    }
 }
 
 function wrongPass() {
@@ -31,11 +37,10 @@ function wrongPass() {
     document.getElementById("warning").innerText = "warning";
     document.getElementById("warning").style.color = "orangered";
 
-    const numbers = document.querySelectorAll(".num");
-
     for (let i = 0; i < numbers.length; i++) {
         numbers[i].value = "";
-    }    
+    }
+    
 }
 
 button.addEventListener("click", checkPass);
