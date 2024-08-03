@@ -1,7 +1,7 @@
 body {
     background-image: url("/img/FondoHumo.jpg");
-    background-color: grey;
     background-size: cover;
+    background-color: gre;
     font-family: "Bebas Neue", sans-serif;
 }
 
@@ -63,7 +63,7 @@ button.send-btn {
     cursor: pointer;
 }
 
-input[type="number"] {
+input[type="tel"] {
     -moz-appearance: textfield;
     width: 35px;
     padding-top: 5px;
@@ -76,7 +76,7 @@ input[type="number"] {
     font-family: "Bebas Neue", sans-serif;
 }
 
-input[type="number"], .password-box,.send-btn {
+input[type="tel"], .password-box,.send-btn {
     box-shadow: -1px 5px 9px -5px rgba(242,73,0,0.75);
     -webkit-box-shadow: -1px 5px 9px -5px rgba(242,73,0,0.75);
     -moz-box-shadow: -1px 5px 9px -5px rgba(242,73,0,0.75);
