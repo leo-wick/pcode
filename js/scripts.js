@@ -30,6 +30,13 @@ function wrongPass() {
     document.getElementById("parag").style.display = "block";
     document.getElementById("warning").innerText = "warning";
     document.getElementById("warning").style.color = "orangered";
+
+    document.getElementById("num1").value = "";
+    document.getElementById("num2").value = "";
+    document.getElementById("num3").value = "";
+    document.getElementById("num4").value = "";
+    document.getElementById("num5").value = "";
+    
 }
 
 button.addEventListener("click", checkPass);
