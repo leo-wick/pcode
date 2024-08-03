@@ -1,5 +1,5 @@
 body {
-    background-image: url("/img/FondoHumo.jpg");
+    background-image: url('FondoHumo.jpg');
     background-size: cover;
     background-color: gre;
     font-family: "Bebas Neue", sans-serif;
