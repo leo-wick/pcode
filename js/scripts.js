@@ -9,7 +9,7 @@ function checkPass() {
     
     let password = num1+num2+num3+num4+num5;
 
-    if (password == 29049 || password == 40300 || password == 10203) {
+    if (password == 29049 || password == 3040 || password == 10203) {
         correctPass();
     } else if (password == 90179 || password == 17029) {
         correctPass();
@@ -36,11 +36,11 @@ function wrongPass() {
     document.getElementById("parag").style.display = "block";
     document.getElementById("warning").innerText = "warning";
     document.getElementById("warning").style.color = "orangered";
-
+    
     for (let i = 0; i < numbers.length; i++) {
         numbers[i].value = "";
-    }
-    
+        numbers[i].style.color = "rgb(243, 138, 0)";
+    } 
 }
 
 button.addEventListener("click", checkPass);
