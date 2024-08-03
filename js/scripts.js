@@ -31,12 +31,11 @@ function wrongPass() {
     document.getElementById("warning").innerText = "warning";
     document.getElementById("warning").style.color = "orangered";
 
-    document.getElementById("num1").value = "";
-    document.getElementById("num2").value = "";
-    document.getElementById("num3").value = "";
-    document.getElementById("num4").value = "";
-    document.getElementById("num5").value = "";
-    
+    const numbers = document.querySelectorAll(".num");
+
+    for (let i = 0; i < numbers.length; i++) {
+        numbers[i].value = "";
+    }    
 }
 
 button.addEventListener("click", checkPass);
