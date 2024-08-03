@@ -1,0 +1,177 @@
+body {
+    background-size: cover;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+h1, p {
+    color: white;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+span.material-symbols-outlined {
+    font-size: 3rem;
+    color: orangered;
+}
+
+.password-box {
+    margin: 0 auto;
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(167, 167, 167, 0.096);
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+
+.check-btn {
+    text-align: center;
+}
+
+button.send-btn {
+    font-size: 1.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 5px 40px;
+    border: none;
+}
+
+.check-btn:hover {
+    cursor: pointer;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    width: 35px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(75, 75, 75);
+    color: rgb(243, 138, 0);
+    border: none;
+    margin-right: 5px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+input[type="number"], .password-box,.send-btn {
+    box-shadow: -1px 5px 9px -5px rgba(242,73,0,0.75);
+    -webkit-box-shadow: -1px 5px 9px -5px rgba(242,73,0,0.75);
+    -moz-box-shadow: -1px 5px 9px -5px rgba(242,73,0,0.75);
+}
+
+@media screen and (max-width: 480px) {
+
+    body {
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 100%;
+        height: 80vh;
+        
+    }
+  }
+
+/*
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formbox {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    box-shadow: 5px 3px 12px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 3px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 3px 12px 0px rgba(0,0,0,0.75);
+    padding: 30px 0px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+}
+
+.button1, .button2, .button3, .button4, .button5 {
+    margin: 5px 2px;
+    
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.15rem;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.num {
+    border-color: transparent;
+    background-color: rgb(185, 185, 185);
+    color: white;
+}
+
+.formbutton {
+    margin: 15px 0px;
+    text-align: center;
+}
+
+#formbutton {
+    padding: 10px 50px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#formbutton:hover {
+    cursor: pointer;
+}
+
+.box1 {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    background-color: green;
+}
+
+.box2  {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background-color: red;
+}
+
+*/
