@@ -9,7 +9,7 @@ function checkPass() {
     
     let password = num1+num2+num3+num4+num5;
 
-    if (password == 29049 || password == 3040 || password == 10203) {
+    if (password == 29049 || password == 4030 || password == 10203) {
         correctPass();
     } else if (password == 90179 || password == 17029) {
         correctPass();
